@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+bady {
+	margin: 0;
+	background-color: aqua;
+}
+
+/*ナビ*/
+.nav01 {
+
+	max-width: 1000px;
+	margin: 0 auto;
+	
+}
+
+
+.nav01 ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav01 a {
+	text-decoration: none;
+	
+}
+/*トップ*/
+
+.top {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+	
+}
+
+.top h1 {
+     font-size: 40px;
+	 color: #2155C2;
+	 letter-spacing: 0.5em;
+}
+
+
+.top p {
+	font-size: 28px;
+	color: #6180DD;
+	letter-spacing: 0.8em;
+}
+ 
+
+/*コンテンツA*/
+
+.conA .container01 {
+	
+}
+
+.conA {
+
+	background-color: #C7E2E4;
+
+}
+
+.container01 {
+	text-align: center;
+	background-color: #B2FFB4;
+	max-width: 1000px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mono {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*コンテンツB*/
+
+.container02 {
+	text-align: center;
+	background-color:#FDFFA9;
+	max-width: 1000px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image001 {
+	margin: 0 30px;
+}
+
+.text01 {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table01 {
+	text-align: center;
+	background-color: #93A6FF;
+	max-width: 1000px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-color:#000000;
+	
+}
+
+th {
+	color: #FFFFFF;
+	background-color: #4C4C4C;
+	text-align: center;
+	border: solid 1px;
+	border-color:#000000;
+	padding: 0.5em;
+}
+
+
+td {
+	border: solid 1px;
+	background-color: #FFFFFF;
+}
+
+table {
+	border-collapse: collapse;
+	
+}
+
+
+
