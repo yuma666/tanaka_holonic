@@ -22,6 +22,29 @@ header {
 
 
 
+.headA {
+	display: inline-block;
+	line-height: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #99C5D9;
+    color:#EBFDFF;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+
+header .container {
+	display: flex;
+	
+	justify-content: space-between;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
 /*ナビ*/
 .nav01 {
 
@@ -33,22 +56,21 @@ header {
 
 .nav01 ul {
 	display: flex;
-	margin: 0;
-	padding: 0;
 	list-style: none;
+	
 }
 
 .nav01 a {
 	display: block;
-	padding: 5px;
+	padding: 15px;
 	color: inherit;
-	font-size: 12px;
+	font-size: 14px;
 	text-decoration: none;
 	
 }
 
 .nav01 a:hover {
-	background-color: rgba()
+	background-color: rgba(0,0,0,0.3);
 }
 /*トップ*/
 
