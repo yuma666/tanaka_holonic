@@ -10,68 +10,6 @@ bady {
 
 /* ヘッダー*/
 
-header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	width: 100%;
-	background-color: rgba(255,255,255,0.9);
-	
-}
-
-
-
-.headA {
-	display: inline-block;
-	line-height: 70px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #99C5D9;
-    color:#EBFDFF;
-	font-size: 24px;
-	text-decoration: none;
-}
-
-
-header .container {
-	display: flex;
-	
-	justify-content: space-between;
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-
-/*ナビ*/
-.nav01 {
-
-	max-width: 1000px;
-	margin: 0 auto;
-	
-}
-
-
-.nav01 ul {
-	display: flex;
-	list-style: none;
-	
-}
-
-.nav01 a {
-	display: block;
-	padding: 15px;
-	color: inherit;
-	font-size: 14px;
-	text-decoration: none;
-	
-}
-
-.nav01 a:hover {
-	background-color: rgba(0,0,0,0.3);
-}
 /*トップ*/
 
 .top {
