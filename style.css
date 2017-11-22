@@ -8,6 +8,20 @@ bady {
 	background-color: aqua;
 }
 
+/* ヘッダー*/
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	
+}
+
+
+
 /*ナビ*/
 .nav01 {
 
@@ -25,8 +39,16 @@ bady {
 }
 
 .nav01 a {
+	display: block;
+	padding: 5px;
+	color: inherit;
+	font-size: 12px;
 	text-decoration: none;
 	
+}
+
+.nav01 a:hover {
+	background-color: rgba()
 }
 /*トップ*/
 
