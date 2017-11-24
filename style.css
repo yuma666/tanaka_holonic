@@ -8,26 +8,9 @@ bady {
 	background-color: aqua;
 }
 
-/*ナビ*/
-.nav01 {
-
-	max-width: 1000px;
-	margin: 0 auto;
-	
-}
+/* ヘッダー*/
 
 
-.nav01 ul {
-	display: flex;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.nav01 a {
-	text-decoration: none;
-	
-}
 /*トップ*/
 
 .top {
